@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+#ime{
+	width: 500px;
+	height: 30px;
+	border: 1px solid black;
+}
+
+#vsebina{
+	width: 500px;
+	height: 100px;
+	resize: none;
+	border: 1px solid black;
+}
+
+input[type=submit]{
+	width: 100px;
+	margin-top: 5px;
+	background-color: yellowgreen;
+	color: white;
+	text-transform: uppercase;
+	font-size: 16px;
+	border: 1px solid yellowgreen;
+	cursor: pointer;
+}
+
+.junak{
+	border-bottom: 2px dashed green;
+}
+
+a{
+	color: gray;
+}
+h1{
+	color: white;
+	background-color: orange;
+	padding: 5px;
+}
